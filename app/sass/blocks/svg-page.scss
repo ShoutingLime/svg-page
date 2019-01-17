@@ -996,25 +996,17 @@
 }
 
 /* Styles for SVG 12 (Counter) */
-.tile-12 path#forms {
-  display: none;
+#tile12 > svg {
+  width: 100%;
+  height: 100%;
 }
 
-.tile-12 #forms-text-2,
-.tile-12 #forms-text-3,
-.tile-12 #forms-text-4,
-.tile-12 #forms-text-5,
-.tile-12 #forms-text-6 {
-  visibility: hidden;
+#tile12 #formscircle {
+  transform: scale(0.8);
+  transform-origin: 50% 50%;
 }
 
-.tile-12:hover path#forms {
-  display: block;
-}
-
-.tile-12 text {
-  font-family: Roboto;
-  font-size: 30px;
-  font-weight: bold;
-  fill: #1EB287;
+#tile12 #forms {
+  transform: scale(0.8);
+  transform-origin: 50% 50%;
 }
