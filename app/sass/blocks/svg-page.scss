@@ -1001,12 +1001,9 @@
   height: 100%;
 }
 
-#tile12 #formscircle {
-  transform: scale(0.8);
-  transform-origin: 50% 50%;
-}
-
-#tile12 #forms {
+#tile12 #formscircle,
+#tile12 #forms,
+#tile12 #formsstart {
   transform: scale(0.8);
   transform-origin: 50% 50%;
 }
